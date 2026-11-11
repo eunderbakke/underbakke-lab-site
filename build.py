@@ -221,29 +221,6 @@ def build_publications(pubs):
 
 # ---------- Home ----------
 
-def envelope_svg():
-    """Isotopic envelope of a peptide before and after deuterium exchange."""
-    before = [0.55, 1.0, 0.82, 0.48, 0.22, 0.09]
-    after = [0.12, 0.34, 0.66, 0.95, 1.0, 0.78, 0.46, 0.2, 0.07]
-    step, base, top = 22, 150, 120
-    bars = []
-    for i, h in enumerate(before):
-        x = 40 + i * step
-        bars.append(f'<line class="pk before" x1="{x}" x2="{x}" y1="{base}" y2="{base - h * top:.0f}"/>')
-    shift = 6 * step
-    for i, h in enumerate(after):
-        x = 40 + shift + i * step
-        bars.append(f'<line class="pk after" x1="{x}" x2="{x}" y1="{base}" y2="{base - h * top:.0f}"/>')
-    return f"""<svg class="envelope" viewBox="0 0 400 190" role="img" aria-labelledby="env-title">
-  <title id="env-title">Mass spectrum of a peptide before and after deuterium exchange: the isotopic envelope moves to higher mass.</title>
-  <line class="axis" x1="20" x2="385" y1="150" y2="150"/>
-  {''.join(bars)}
-  <text x="72" y="174">before D₂O</text>
-  <text x="260" y="174">after exchange</text>
-  <text class="mz" x="385" y="142" text-anchor="end">m/z</text>
-</svg>"""
-
-
 def build_home(posts, pubs):
     latest = "\n".join(news_post(p) for p in posts[:3])
     highlighted = ["Pyk2 scaffolding relieves Src autoinhibition",
@@ -265,21 +242,15 @@ def build_home(posts, pubs):
     )
     body = f"""<section class="hero">
   <div class="wrap hero-inner">
-    <div>
-      <h1>We study the architecture and assembly of scaffolded signaling complexes.</h1>
-      <p>Welcome to the Underbakke Lab! We are located in the Roy J. Carver Department of Biochemistry, Biophysics &amp; Molecular Biology at Iowa State University.</p>
-      <p><a class="button" href="research.html">Read about our research</a></p>
-    </div>
-    <figure class="hero-figure">
-      {envelope_svg()}
-      <figcaption>How we see proteins move: as backbone amides trade hydrogen for deuterium, a peptide’s isotopic envelope shifts to higher mass. <a href="techniques.html">More on HDX-MS</a></figcaption>
-    </figure>
+    <h1>Welcome to the Underbakke Lab!</h1>
+    <p>We are located in the Roy J. Carver Department of Biochemistry, Biophysics &amp; Molecular Biology at Iowa State University.</p>
+    <p><a class="button" href="research.html">Read about our research</a></p>
   </div>
 </section>
 <div class="wrap">
   <figure class="pano">
     <img src="{img('1619112740203-QGFKDQQV8G2Q6REDWTQZ/PANO_20200829_124351.vr.jpg', 1500)}" alt="Panorama of the Underbakke Lab">
-    <figcaption>The lab, on the fourth floor of the Molecular Biology Building</figcaption>
+    <figcaption>Underbakke Lab</figcaption>
   </figure>
   <div class="home-cols">
     <section>

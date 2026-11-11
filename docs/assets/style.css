@@ -62,29 +62,11 @@ main > .wrap { padding-top: 3rem; padding-bottom: 4rem; }
 
 /* Home */
 .hero { background: var(--slate); color: #fff; }
-.hero-inner { display: grid; grid-template-columns: 1.2fr 1fr; gap: 3rem; align-items: center; padding-top: 4rem; padding-bottom: 4rem; }
-.hero h1 { font-size: clamp(1.9rem, 4vw, 2.9rem); margin-bottom: 1.25rem; }
-.hero p { color: #dfe8ec; max-width: 34rem; }
-.hero a { color: #fff; }
-.button { display: inline-block; margin-top: 0.5rem; font-family: var(--sans); font-weight: 600; background: var(--gold); color: var(--ink) !important; text-decoration: none; padding: 0.7rem 1.2rem; border-radius: 4px; }
-.button:hover { background: #f0c552; }
-.hero-figure { margin: 0; }
-.hero-figure figcaption { font-family: var(--sans); font-size: 0.875rem; line-height: 1.5; color: #c4d3da; margin-top: 0.75rem; }
-
-.envelope { width: 100%; height: auto; }
-.envelope .axis { stroke: #8fa5af; stroke-width: 1.5; }
-.envelope .pk { stroke-width: 7; stroke-linecap: butt; }
-.envelope .before { stroke: #8fa5af; }
-.envelope .after { stroke: var(--gold); }
-.envelope text { font-family: var(--sans); font-size: 12px; fill: #c4d3da; }
-@media (prefers-reduced-motion: no-preference) {
-  .envelope .after { animation: exchange 2.6s cubic-bezier(.3, .1, .2, 1) 0.5s both; }
-  @keyframes exchange {
-    from { transform: translateX(-132px); opacity: 0; }
-    25% { opacity: 1; }
-    to { transform: none; opacity: 1; }
-  }
-}
+.hero-inner { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+.hero h1 { font-size: clamp(1.9rem, 4vw, 2.9rem); margin-bottom: 1rem; }
+.hero p { color: #dfe8ec; max-width: 38rem; font-size: 1.1875rem; }
+.button { display: inline-block; margin-top: 0.5rem; font-family: var(--sans); font-size: 1rem; font-weight: 600; background: var(--gold); color: var(--ink); text-decoration: none; padding: 0.7rem 1.2rem; border-radius: 4px; }
+.button:hover { background: #f0c552; color: var(--ink); }
 
 .pano { margin: 0 0 1rem; }
 .pano img { width: 100%; border-radius: 4px; }
@@ -137,8 +119,8 @@ address { font-style: normal; font-family: var(--sans); font-size: 1rem; line-he
 .profile h2 { font-size: 1.125rem; margin: 1.75rem 0 0.4rem; }
 
 @media (max-width: 760px) {
-  .hero-inner, .home-cols, .profile { grid-template-columns: 1fr; }
-  .hero-inner { gap: 2rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .home-cols, .profile { grid-template-columns: 1fr; }
+  .hero-inner { padding-top: 2.5rem; padding-bottom: 2.5rem; }
   .gallery { grid-template-columns: 1fr 1fr; }
   .year { grid-template-columns: 1fr; }
   .year > h2 { position: static; margin-bottom: 1.25rem; }

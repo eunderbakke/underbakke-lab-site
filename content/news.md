@@ -295,9 +295,9 @@ date: April 29, 2015
 
 From the Undergraduate Student Recognition Luncheon:
 
-Jeff Carley and Tyler Gilbreath were awarded the [Linder Family Undergraduate Research Fellowship](http://www.bbmb.iastate.edu/scholarships/).
+Jeff Carley and Tyler Gilbreath were awarded the Linder Family Undergraduate Research Fellowship.
 
-Morgan Barrett received the [Donald and Margaret Graves Scholarship](http://www.bbmb.iastate.edu/scholarships/).
+Morgan Barrett received the Donald and Margaret Graves Scholarship.
 
 ## Congratulations Flora Yen!
 date: December 3, 2014

@@ -214,7 +214,7 @@ def build_publications(pubs):
 <ol class="pubs" reversed>
 {items}
 </ol>
-<p><a href="http://scholar.google.com/citations?user=TLvHrmUAAAAJ&amp;hl=en&amp;oi=ao">View the full publication list on Google Scholar</a></p>
+<p><a href="https://scholar.google.com/citations?user=TLvHrmUAAAAJ&amp;hl=en&amp;oi=ao">View the full publication list on Google Scholar</a></p>
 </div>"""
     page("publications.html", "Publications", body)
 

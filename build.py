@@ -63,9 +63,6 @@ def page(filename, title, body, current=None, description=""):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(full_title)}</title>
   <meta name="description" content="{html.escape(desc)}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="icon" href="assets/favicon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">

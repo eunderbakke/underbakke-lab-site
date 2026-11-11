@@ -38,7 +38,7 @@ def img(path, width=750):
 
 def inline(text):
     """Tiny Markdown: [text](url), **bold**, *italic*."""
-    t = html.escape(text, quote=False)
+    t = html.escape(text, quote=False).replace("\\*", "&#42;")  # \* is a literal asterisk
     t = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", r'<a href="\2">\1</a>', t)
     t = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"\*([^*]+)\*", r"<em>\1</em>", t)
@@ -243,7 +243,12 @@ def envelope_svg():
 
 def build_home(posts, pubs):
     latest = "\n".join(news_post(p) for p in posts[:3])
-    highlights = "\n".join(f"<li>{inline(p)}</li>" for p in (pubs[0], pubs[2], pubs[5]))
+    highlighted = ["Pyk2 scaffolding relieves Src autoinhibition",
+                   "Molecularly imprinted nanoparticles reveal",
+                   "Activation loop phosphorylation tunes",
+                   "Controlling kinase activities by selective protection"]
+    chosen = [next(p for p in pubs if key in p) for key in highlighted]
+    highlights = "\n".join(f"<li>{inline(p)}</li>" for p in chosen)
     gallery = [
         ("1619112768846-AT1MVWM629SZBS2MZL9K/IMG_20190926_175013070_HDR_2.jpg", "Iowa State University campus", ""),
         ("1485121448955-PYBTHIZFRJE0ECHU34HR/IMAG0291.jpg", "Molecular Biology Building", "Molecular Biology Building"),

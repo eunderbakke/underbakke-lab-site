@@ -1,3 +1,5 @@
+Woudenberg A\*, Zuidema KM\*, Palhano Zanela TM, Romero Bello KG, Underbakke ES. Pyk2 scaffolding relieves Src autoinhibition to coordinate reciprocal kinase activation. *J. Biol. Chem.* (2026) 113737. [doi:10.1016/j.jbc.2026.113737](https://doi.org/10.1016/j.jbc.2026.113737)
+
 Palhano Zanela TM, Zangiabadi M, Zhao Y, Underbakke ES. Molecularly imprinted nanoparticles reveal regulatory scaffolding features in Pyk2 tyrosine kinase. *RSC Chem. Biol.* (2024) 5: 447-453. [PMC11078204](https://pmc.ncbi.nlm.nih.gov/articles/PMC11078204/)
 
 Jiang T, Wan G, Zhang H, Gyawali YP, Underbakke ES, Feng C. Probing protein dynamics in neuronal nitric oxide synthase by quantitative cross-linking mass spectrometry. *Biochemistry* (2023) 62(15): 2232-2237. [PMC10529231](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529231/)

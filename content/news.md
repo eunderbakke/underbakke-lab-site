@@ -2,7 +2,7 @@
 date: November 9, 2026
 image: assets/news/2026-trivia-night.jpg | The winning team around their table at the Biochemistry Mentoring Program Trivia Night
 
-Our team managed to pull ahead for a trivia night win! Julien's team was a close second. Congratulations to everyone, including lab members Eva and Arwyn!
+Our team managed to pull ahead for a trivia night win! Julien's team was a close second.. Congratulations to everyone, including lab members Eva and Arwyn!
 
 ## Alexzandrea's reciprocal kinase regulation paper is now published
 date: November 4, 2026

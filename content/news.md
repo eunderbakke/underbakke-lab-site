@@ -183,7 +183,7 @@ Tania joins the lab as a new Ph.D. candidate in our Biochemistry graduate progra
 
 ## Conformational Dynamics of FERM-mediated autoinhibition of Pyk2
 date: August 23, 2019
-image: 0f1f3c47-4830-4001-bbb0-0fb3395597d9/Biochemistry_TOC_2019.jpeg | Graphical abstract for Biochemistry publication
+image: 0f1f3c47-4830-4001-bbb0-0fb3395597d9/Biochemistry_TOC_2019.jpeg | Graphical abstract for Conformational dynamics of FERM-mediated autoinhibition of Pyk2 tyrosine kinase
 
 We were excited to see Hanna's new paper show up in the *Biochemistry* RSS feed this morning!
 

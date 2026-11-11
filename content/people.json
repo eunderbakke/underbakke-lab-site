@@ -16,7 +16,7 @@
     {
       "name": "Kallie Zuidema",
       "detail": "B.S., Biochemistry – University of Illinois, Chicago",
-      "photo": "9fd01fb6-80ed-4ac3-80d4-0f9035215199/Zuidema_Kallie_2024_350x438.jpg"
+      "photo": "assets/img/Zuidema_Kallie_2024_350x438.jpg"
     }
   ],
   "undergraduate": [
@@ -38,7 +38,7 @@
     },
     {
       "name": "Megan Uehlein",
-      "photo": "b8d6fb1a-fc50-4317-9d3c-63229ab2ccfb/portrait_mu_1.jpg"
+      "photo": "assets/img/portrait_mu_1.jpg"
     }
   ],
   "alumni": [
@@ -46,128 +46,128 @@
       "name": "Rosa Anaya",
       "role": "Undergraduate Researcher, 2023–2026",
       "degree": "B.S. Microbiology",
-      "photo": "345b55a4-0b14-4033-8d17-316e4d26e25b/big-gudetama-nadqy3cgvx5d9407.jpeg",
+      "photo": "assets/img/big-gudetama-nadqy3cgvx5d9407.jpg",
       "alt": "Cartoon avatar for Rosa Anaya"
     },
     {
       "name": "Abby Larkin",
       "role": "Undergraduate Researcher, 2023–2026",
       "degree": "B.S. Biochemistry 2026",
-      "photo": "a347b929-e655-4a85-a10d-68b52a2ed08f/Larkin_Abby_2023_350x437.jpg"
+      "photo": "assets/img/Larkin_Abby_2023_350x437.jpg"
     },
     {
       "name": "Alexzandrea Woudenberg, Ph.D.",
       "role": "Graduate Student, 2020–2025",
       "degree": "Biochemistry Ph.D. 2025",
-      "photo": "67d4f904-fc6a-44a5-a602-8052c5b4aba1/Woudenbeg_Alexzandrea_2023_350x438.jpg"
+      "photo": "assets/img/Woudenbeg_Alexzandrea_2023_350x438.jpg"
     },
     {
       "name": "Emily Rivera",
       "role": "Undergraduate Researcher, 2021–2025",
       "degree": "B.S. Biology 2025",
-      "photo": "024aa2d3-32a8-48bb-a7c0-dea414a6dc87/Rivera_Emily_2023_437x350.jpg"
+      "photo": "assets/img/Rivera_Emily_2023_437x350.jpg"
     },
     {
       "name": "Tania Palhano Zanela, Ph.D.",
       "role": "Graduate Student, 2019–2023",
       "degree": "Biochemistry Ph.D. 2024",
-      "photo": "88c09ca6-ec7c-467b-b269-5c1e1efc364b/Tania.jpg"
+      "photo": "assets/img/Tania.jpg"
     },
     {
       "name": "Ciaran Kelly",
       "role": "Undergraduate Researcher, 2022",
       "degree": "B.S. Biochemistry 2024",
-      "photo": "dd85719b-5183-4edc-9741-253967aea2c1/ciaran.png"
+      "photo": "assets/img/ciaran.jpg"
     },
     {
       "name": "Madison Engle",
       "role": "Undergraduate Researcher, 2023",
       "degree": "B.S. Biochemistry 2023",
-      "photo": "ababb5f6-a154-4d58-8bf0-67de5762bff6/B82901C5-EFCD-400F-BE09-954AE85134E5.jpeg"
+      "photo": "assets/img/B82901C5-EFCD-400F-BE09-954AE85134E5.jpg"
     },
     {
       "name": "Karen Romero Bello",
       "role": "Undergraduate Researcher, 2021–2022",
       "degree": "B.S. Biochemistry 2022",
-      "photo": "ae3bad52-418d-467c-9c37-c59421116f4b/karen.jpg"
+      "photo": "assets/img/karen.jpg"
     },
     {
       "name": "Gabby Klemme",
       "role": "Undergraduate Researcher, 2017–2021",
       "degree": "B.S. Biochemistry 2021",
-      "photo": "3724b416-6838-4bf4-987c-828adec122d0/image-asset.jpeg"
+      "photo": "assets/img/3724b416-6838-image-asset.jpg"
     },
     {
       "name": "Jared Thomas Sorensen",
       "role": "Undergraduate Researcher, 2018–2020",
       "degree": "B.S. Biochemistry 2021",
-      "photo": "1582408875614-XJP26GEYDZQQDWEQ6IVK/Sorensen+150x200.jpg"
+      "photo": "assets/img/Sorensen-150x200.jpg"
     },
     {
       "name": "Hanna S. Loving, Ph.D.",
       "role": "Graduate Student, 2015–2020",
       "degree": "Biochemistry Ph.D. 2020",
-      "photo": "1587231907985-STKSMQZPWARXS29J5Y01/photo-42.JPG"
+      "photo": "assets/img/photo-42.jpg"
     },
     {
       "name": "Shivani Sharma, M.S.",
       "role": "Graduate Student, 2018–2020",
       "degree": "Biochemistry M.S. 2020",
-      "photo": "1619125071974-MSG5NBS7WVTY4FC1SZOE/shivani.png"
+      "photo": "assets/img/shivani.jpg"
     },
     {
       "name": "Natalie McClure",
       "role": "Undergraduate Researcher, 2018–2020",
       "degree": "B.S. Biochemistry 2020",
-      "photo": "1516043037198-G4LMGP7THAFOPMC8YTDA/McClure2.jpg"
+      "photo": "assets/img/McClure2.jpg"
     },
     {
       "name": "Sarah Zelle",
       "role": "Undergraduate Researcher, 2017–2020",
       "degree": "B.S. Biochemistry, Genetics 2020",
-      "photo": "1516121335763-3VP2D8BZKYDH2DSRBM80/Zelle.jpg"
+      "photo": "assets/img/Zelle.jpg"
     },
     {
       "name": "Quinlin M. Hanson, Ph.D.",
       "role": "Graduate Student, 2014–2018",
       "degree": "Biochemistry Ph.D. 2018",
-      "photo": "1579107561796-R0BHKLDKT1RHGQJ866MI/1402339_499946883436293_1501509551_o_0.jpg"
+      "photo": "assets/img/1402339_499946883436293_1501509551_o_0.jpg"
     },
     {
       "name": "Faleesia Willis",
       "role": "Undergraduate Researcher, 2017–2018",
       "degree": "B.S. Biology 2018",
-      "photo": "1579108102155-ZTOB0SAS2EY5FA16QVP7/Willis-150x200.jpg"
+      "photo": "assets/img/Willis-150x200.jpg"
     },
     {
       "name": "Jeffrey Carley",
       "role": "Undergraduate Researcher, 2014–2017",
       "degree": "B.S. Biochemistry 2017",
-      "photo": "1485126790324-EIBKKB7SOQ8Q8H95S8PK/IMG_3376-2.jpg"
+      "photo": "assets/img/IMG_3376-2.jpg"
     },
     {
       "name": "Morgan Barrett",
       "role": "Undergraduate Researcher, 2014–2017",
       "degree": "B.S. Biochemistry, Genetics 2017",
-      "photo": "1619126256318-60DF5Z6CTF9SI0R46YUY/386748_544754375535754_108814667_n.jpg"
+      "photo": "assets/img/386748_544754375535754_108814667_n.jpg"
     },
     {
       "name": "Tyler Gilbreath",
       "role": "Undergraduate Researcher, 2015–2017",
       "degree": "B.S. Agricultural Biochemistry, Microbiology 2017",
-      "photo": "1579107973973-4RW510AQIZCX76DKBGEA/IMG_2803-150x200.jpg"
+      "photo": "assets/img/IMG_2803-150x200.jpg"
     },
     {
       "name": "Graciela Gautier",
       "role": "Undergraduate Researcher, 2016–2017",
       "degree": "English",
-      "photo": "1485462610350-O8Q0E9WOX7JKJVHMRYDG/image-asset.jpeg"
+      "photo": "assets/img/1485462610350-image-asset.jpg"
     },
     {
       "name": "Flora Yen",
       "role": "Undergraduate Researcher, 2014–2016",
       "degree": "B.S. Biochemistry 2016",
-      "photo": "1485126995757-FOFNL1HVIC6NG8X6EPKD/10410381_10201827581689720_3171211211419187994_n.jpg"
+      "photo": "assets/img/10410381_10201827581689720_3171211211419187994_n.jpg"
     }
   ]
 }

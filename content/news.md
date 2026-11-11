@@ -19,25 +19,25 @@ Dr. Alexzandrea and Dr. Tania are both distinguishing themselves in the biotechn
 
 ## Arwyn and Eva share summer research projects at the 2026 ISU EUReCA poster session
 date: July 29, 2026
-image: b0f4d0dd-a4d5-4585-a068-4257f2f0aa56/2026-EUReCA-poster-session-01.jpg | 2026 EUReCA poster session
+image: assets/img/2026-EUReCA-poster-session-01.jpg | 2026 EUReCA poster session
 
 Eva and Arwyn participated in the Biochemistry Summer Research Program, culminating in a poster presentation with summer researchers across ISU.
 
 ## Abby and Megan present posters at the 20th Stupka Symposium
 date: April 9, 2026
-image: 2e1eac09-238e-4e71-98c9-2907c4f0ad4e/Stupka+2026+Abby+and+Megan.png | Poster session at the Stupka Symposium
+image: assets/img/Stupka-2026-Abby-and-Megan.jpg | Poster session at the Stupka Symposium
 
 The 20th Annual Stupka Undergraduate Research Symposium was a big two-day event. Abby and Megan both shared research updates at the poster sessions.
 
 ## Lab trip to IC-HDX 2026 in Strasbourg, France
 date: March 9–13, 2026
-image: 31ae5775-5a4b-4d72-9a91-5b69ff47b2c2/Strasbourg+IC-HDX+2026-1.jpg | Cathedral in Strasbourg, France
+image: assets/img/Strasbourg-IC-HDX-2026-1.jpg | Cathedral in Strasbourg, France
 
 Kallie and Abby represented the lab at the 2026 5th International Conference on Hydrogen/Deuterium Exchange in Strasbourg, France.
 
 ## Congratulations to BBMB Graduate Student Award Winners!
 date: May 8, 2025
-image: da05cd68-f473-4fad-a230-7f30dc5c16fa/2025+BBMB+Graduate+Student+awards+crop.jpg | BBMB Graduate Student award presentations
+image: assets/img/2025-BBMB-Graduate-Student-awards-crop.jpg | BBMB Graduate Student award presentations
 
 Kallie won the BBMB Graduate Student Departmental Service Award.
 
@@ -45,35 +45,35 @@ Alexzandrea won the BBMB Graduate Student Undergraduate Mentoring Award.
 
 ## Lab trip to ASBMB 2025 Annual Meeting in Chicago
 date: April 14, 2025
-image: 1f033704-03a1-4010-8924-bb68465be5d1/Underbakke_lab_ASBMB_2025.jpg | Underbakke lab at ASBMB 2025 Chicago
+image: assets/img/Underbakke_lab_ASBMB_2025.jpg | Underbakke lab at ASBMB 2025 Chicago
 
 Alexzandrea’s abstract was selected for a talk! Rosa was there too.
 
 ## Abby & Emily present again at the 19th Stupka Undergraduate Research Symposium
 date: April 3, 2025
-image: d4c71723-24ac-44ef-8e6e-37ff4e17c33c/Stupka_2025.png | Emily and Abby present posters at Stupka Symposium
+image: assets/img/Stupka_2025.jpg | Emily and Abby present posters at Stupka Symposium
 
 ## Lab Lunch at the Joan Bice Underwood Tea Room
 date: March 12, 2025
-image: 09805ae1-0f6a-43e6-8344-87556692bc28/Joan+C+Bice+Tea+Room+trip+20250312.jpg | Underbakke lab at the Joan Bice Underwood Tea Room
+image: assets/img/Joan-C-Bice-Tea-Room-trip-20250312.jpg | Underbakke lab at the Joan Bice Underwood Tea Room
 
 Lab outing to the ISU restaurant/classroom tea room.
 
 ## Ph.D. Graduation 2024
 date: May 5, 2024
-image: bdf64736-f911-4ef7-bc91-81a4b14b97b2/2024-graduation.jpg | 2024 ISU Biochemistry graduation
+image: assets/img/2024-graduation.jpg | 2024 ISU Biochemistry graduation
 
 Tania returned to attend her Ph.D. hooding graduation ceremony.
 
 ## International Conference on H/D Exchange Mass Spectrometry 2024
 date: April 22, 2024
-image: c8ba398f-daff-4605-b911-5a54cea662f6/240422+IC-HDX.jpg | IC-HDX 2024 research presentation
+image: assets/img/240422-IC-HDX.jpg | IC-HDX 2024 research presentation
 
 Alexzandrea presented her research at the 4th IC-HDX conference in Monterey, CA.
 
 ## Abby & Emily present posters at the 18th annual Stupka Undergraduate Research Symposium
 date: April 4, 2024
-image: d1008e2b-5c6a-49b2-a954-83ed5984d0e3/20240404+posters.png | Abby and Emily present research posters
+image: assets/img/20240404-posters.jpg | Abby and Emily present research posters
 
 ## Tania’s Molecularly Imprinted Nanoparticles paper is out
 date: March 13, 2024
@@ -84,7 +84,7 @@ Our collaboration with Yan Zhao and co-workers at ISU Chemistry is now published
 
 ## Congratulations Dr. Tania Palhano Zanela!
 date: January 12, 2024
-image: 9ccf8d54-e0d7-4910-9075-accf3c6d1b2f/Palhano_Zanela_Thesis_Defense.jpg | Tania's thesis defense
+image: assets/img/Palhano_Zanela_Thesis_Defense.jpg | Tania's thesis defense
 
 Tania braved a blizzard and sub-zero temperatures to deliver an outstanding thesis defense.
 
@@ -100,7 +100,7 @@ Abby was awarded the Linder Fellowship to pursue the research she proposed on ki
 
 ## New Preprint
 date: August 28, 2023
-image: f09191b5-d7d8-4f16-8776-08c9aac03cb9/MINP+TOC.jpg | Graphical abstract for Molecularly imprinted nanoparticles reveal regulatory scaffolding features in Pyk2 tyrosine kinase
+image: assets/img/MINP-TOC.jpg | Graphical abstract for Molecularly imprinted nanoparticles reveal regulatory scaffolding features in Pyk2 tyrosine kinase
 
 We're excited to share Tania's [new preprint](https://www.biorxiv.org/content/10.1101/2023.08.05.552112v2) (and amazing TOC artwork) illustrating the use of molecularly imprinted nanoparticles to probe kinase mechanisms.
 
@@ -116,19 +116,19 @@ Alexzandrea won the 3rd Year Graduate Student Award for our department. Congratu
 
 ## Activation loop phosphorylation tunes Pyk2 conformational dynamics
 date: March 6, 2023
-image: 13ef5f86-755c-4f65-92ef-81426477253e/Structure_Graphical_Abstract_2023.jpg | Graphical abstract for Activation loop phosphorylation tunes conformational dynamics underlying Pyk2 tyrosine kinase activation
+image: assets/img/Structure_Graphical_Abstract_2023.jpg | Graphical abstract for Activation loop phosphorylation tunes conformational dynamics underlying Pyk2 tyrosine kinase activation
 
 We're very proud of Tania, Alexzandrea, and Karen for their meticulous studies dissecting the structural dynamics underlying Pyk2 kinase activation. We're grateful to the reviewers and thrilled to see the work in press at *Structure*.
 
 ## Our team of undergraduate researchers is growing…
 date: January 2023
-image: ab885b21-e579-460a-a57a-b1c9846a5822/Underbakke_Lab_Cookout_2023_crop.jpg | Underbakke Lab cookout, 2023
+image: assets/img/Underbakke_Lab_Cookout_2023_crop.jpg | Underbakke Lab cookout, 2023
 
 We are thrilled to welcome Madison Engle, Emily Rivera, Rosa Anaya and Austin Petfalski to our lab for the upcoming spring semester.
 
 ## Karen wins poster award at 2022 Stupka Undergraduate Research Symposium
 date: April 7, 2022
-image: 3b10a57d-dfe2-4d3c-87af-95a319ac8109/Karen_Stupka_Poster_Prize_2022.jpg | 2022 Stupka Poster Prize winner
+image: assets/img/Karen_Stupka_Poster_Prize_2022.jpg | 2022 Stupka Poster Prize winner
 
 The whole lab is so proud of Karen for winning the 16th Annual Stupka Symposium undergraduate research poster!
 
@@ -162,7 +162,7 @@ Alexzandrea joins the lab as a new Ph.D. student in our Biochemistry graduate pr
 
 ## Controlling Kinase Activities by Selective Inhibition of Peptide Substrates
 date: January 4, 2021
-image: 1619130041626-XFOQJVGYR2BRV5QHE60V/ja0c11566_0005.gif | Graphical abstract for Controlling kinase activities by selective inhibition of peptide substrates
+image: assets/img/ja0c11566_0005.gif | Graphical abstract for Controlling kinase activities by selective inhibition of peptide substrates
 
 [Our collaborative work emerges in *JACS*](https://pubs.acs.org/doi/10.1021/jacs.0c11566). Come see how molecular imprinted nanoparticles enable controlled post-translational modification of proteins!
 
@@ -183,7 +183,7 @@ Tania joins the lab as a new Ph.D. candidate in our Biochemistry graduate progra
 
 ## Conformational Dynamics of FERM-mediated autoinhibition of Pyk2
 date: August 23, 2019
-image: 0f1f3c47-4830-4001-bbb0-0fb3395597d9/Biochemistry_TOC_2019.jpeg | Graphical abstract for Conformational dynamics of FERM-mediated autoinhibition of Pyk2 tyrosine kinase
+image: assets/img/Biochemistry_TOC_2019.jpg | Graphical abstract for Conformational dynamics of FERM-mediated autoinhibition of Pyk2 tyrosine kinase
 
 We were excited to see Hanna's new paper show up in the *Biochemistry* RSS feed this morning!
 
@@ -229,7 +229,7 @@ Sarah Zelle and Natalie McClure were each awarded a Linder Family Undergraduate 
 
 ## BBMB Trivia Night
 date: January 19, 2018
-image: 1516807185466-QM6S2JCMM7FTA7VJMBNI/Trivia+Night+2018+Dirt+Life+Victory.jpg | Trivia Night 2018 victory
+image: assets/img/Trivia-Night-2018-Dirt-Life-Victory.jpg | Trivia Night 2018 victory
 
 Another triumph at the departmental Spaghetti and Trivia Night! Our team eked out a win amidst fierce competition.
 
@@ -245,7 +245,7 @@ The new Synapt G2-Si mass spectrometer is up and running for [HDX-MS analysis in
 
 ## Goodbye, terra cotta G-Nomes.
 date: July 24, 2017
-image: 1516234649846-LDZCMJCTEMDEJ0BV9N01/New+G-Nomes.jpg | Installation of the new G-Nome sculptures on the Molecular Biology Building
+image: assets/img/New-G-Nomes.jpg | Installation of the new G-Nome sculptures on the Molecular Biology Building
 
 Hello, new aluminum G-Nomes.
 
@@ -261,7 +261,7 @@ Many thanks for the opportunity to present our research at the first Internation
 
 ## ASBMB Meeting
 date: April 26, 2017
-image: 1516234695075-T7SBA7ZAYYIAEZ6XHH2W/ASBMB+2017+Chicago.jpg | Jeff and Morgan at the ASBMB 2017 annual meeting
+image: assets/img/ASBMB-2017-Chicago.jpg | Jeff and Morgan at the ASBMB 2017 annual meeting
 
 Congratulations to Jeff and Morgan for great dual poster presentations at the ASBMB 2017 annual meeting in Chicago. They held their own against the Comic Con roiling away in the neighboring conference hall.
 

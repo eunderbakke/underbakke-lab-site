@@ -14,9 +14,7 @@ ROOT = Path(__file__).parent
 CONTENT = ROOT / "content"
 OUT = ROOT / "docs"
 
-# Photos still hosted on Squarespace's image servers (see README).
-CDN = "https://images.squarespace-cdn.com/content/v1/588523442e69cf6033cb146e/"
-LOGO = CDN + "2336b613-6637-4016-84f4-89f6e11ae731/ESU+Lab+Logo+website-01.png?format=750w"
+LOGO = "assets/img/ESU-Lab-Logo-website-01.png"
 
 NAV = [
     ("index.html", "Home"),
@@ -29,11 +27,9 @@ NAV = [
 ]
 
 
-def img(path, width=750):
-    """Full address for a photo: local files stay as-is, others come from the CDN."""
-    if path.startswith("assets/") or path.startswith("http"):
-        return path
-    return f"{CDN}{path}?format={width}w"
+def img(path, width=None):
+    """Photos live in docs/assets/; paths are relative to the site root."""
+    return path
 
 
 def inline(text):
@@ -227,10 +223,10 @@ def build_home(posts, pubs):
     chosen = [next(p for p in pubs if key in p) for key in highlighted]
     highlights = "\n".join(f"<li>{inline(p)}</li>" for p in chosen)
     gallery = [
-        ("1619112768846-AT1MVWM629SZBS2MZL9K/IMG_20190926_175013070_HDR_2.jpg", "Iowa State University campus", ""),
-        ("1485121448955-PYBTHIZFRJE0ECHU34HR/IMAG0291.jpg", "Molecular Biology Building", "Molecular Biology Building"),
-        ("1485121449088-N683AHISA7K556SPQ3TV/IMAG02901.jpg", "Mural of chemistry by Grant Wood", "Chemistry as envisioned by Grant Wood"),
-        ("1705677192992-OT6Q6YVZ3982TZO0PUVH/MBB_south_2013.jpg", "South side of the Molecular Biology Building", ""),
+        ("assets/img/IMG_20190926_175013070_HDR_2.jpg", "Iowa State University campus", ""),
+        ("assets/img/IMAG0291.jpg", "Molecular Biology Building", "Molecular Biology Building"),
+        ("assets/img/IMAG02901.jpg", "Mural of chemistry by Grant Wood", "Chemistry as envisioned by Grant Wood"),
+        ("assets/img/MBB_south_2013.jpg", "South side of the Molecular Biology Building", ""),
     ]
     figs = "\n".join(
         f'<figure><img src="{img(src)}" alt="{alt}" loading="lazy">'
@@ -246,7 +242,7 @@ def build_home(posts, pubs):
 </section>
 <div class="wrap">
   <figure class="pano">
-    <img src="{img('1619112740203-QGFKDQQV8G2Q6REDWTQZ/PANO_20200829_124351.vr.jpg', 1500)}" alt="Panorama of the Underbakke Lab">
+    <img src="{img('assets/img/PANO_20200829_124351.vr.jpg', 1500)}" alt="Panorama of the Underbakke Lab">
     <figcaption>Underbakke Lab</figcaption>
   </figure>
   <div class="home-cols">
@@ -273,7 +269,7 @@ def build_home(posts, pubs):
 # ---------- Plain pages ----------
 
 def build_plain(filename, title, current=None):
-    fragment = (CONTENT / filename).read_text(encoding="utf-8").replace("{{CDN}}", CDN)
+    fragment = (CONTENT / filename).read_text(encoding="utf-8")
     page(filename, title, f'<div class="wrap prose">\n{fragment}\n</div>', current=current)
 
 

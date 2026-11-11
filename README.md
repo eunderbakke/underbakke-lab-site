@@ -20,6 +20,5 @@ The `image:` line is optional.
 
 ## Photos
 
-Most photos still load from Squarespace's image servers (the addresses in `build.py` starting with
-`images.squarespace-cdn.com`). They must be copied into `docs/assets/` before the Squarespace
-account is closed.
+All photos live in `docs/assets/` (`img/`, `people/`, `news/`). Refer to them by path, for example
+`assets/news/photo.jpg`.

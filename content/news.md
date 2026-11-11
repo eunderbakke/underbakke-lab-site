@@ -1,3 +1,11 @@
+## Alexzandrea's reciprocal kinase regulation paper is now published
+date: November 4, 2026
+image: assets/news/2026-jbc-pyk2-src.jpg | Cartoon of Src and Pyk2 reciprocal regulation: autoinhibited Src and Pyk2 assemble into an activation complex
+
+We're excited to see the mechanistic study of Src and Pyk2 reciprocal regulation is now out at the *Journal of Biological Chemistry*!
+
+[https://doi.org/10.1016/j.jbc.2026.113737](https://doi.org/10.1016/j.jbc.2026.113737)
+
 ## Lab alumni Alexzandrea & Tania both win Next Generation Investigator awards!
 date: October 1, 2026
 

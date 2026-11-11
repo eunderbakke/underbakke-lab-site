@@ -6,7 +6,7 @@ Our team managed to pull ahead for a trivia night win! Julien's team was a close
 
 ## Alexzandrea's reciprocal kinase regulation paper is now published
 date: November 4, 2026
-image: assets/news/2026-jbc-pyk2-src.jpg | Cartoon of Src and Pyk2 reciprocal regulation: autoinhibited Src and Pyk2 assemble into an activation complex
+image: assets/news/2026-jbc-pyk2-src.jpg | Graphical abstract for Pyk2 scaffolding relieves Src autoinhibition to coordinate reciprocal kinase activation
 
 We're excited to see the mechanistic study of Src and Pyk2 reciprocal regulation is now out at the *Journal of Biological Chemistry*!
 
@@ -100,7 +100,7 @@ Abby was awarded the Linder Fellowship to pursue the research she proposed on ki
 
 ## New Preprint
 date: August 28, 2023
-image: f09191b5-d7d8-4f16-8776-08c9aac03cb9/MINP+TOC.jpg | Graphical abstract for nanoparticle preprint
+image: f09191b5-d7d8-4f16-8776-08c9aac03cb9/MINP+TOC.jpg | Graphical abstract for Molecularly imprinted nanoparticles reveal regulatory scaffolding features in Pyk2 tyrosine kinase
 
 We're excited to share Tania's [new preprint](https://www.biorxiv.org/content/10.1101/2023.08.05.552112v2) (and amazing TOC artwork) illustrating the use of molecularly imprinted nanoparticles to probe kinase mechanisms.
 
@@ -116,7 +116,7 @@ Alexzandrea won the 3rd Year Graduate Student Award for our department. Congratu
 
 ## Activation loop phosphorylation tunes Pyk2 conformational dynamics
 date: March 6, 2023
-image: 13ef5f86-755c-4f65-92ef-81426477253e/Structure_Graphical_Abstract_2023.jpg | Graphical abstract for the 2023 Structure paper
+image: 13ef5f86-755c-4f65-92ef-81426477253e/Structure_Graphical_Abstract_2023.jpg | Graphical abstract for Activation loop phosphorylation tunes conformational dynamics underlying Pyk2 tyrosine kinase activation
 
 We're very proud of Tania, Alexzandrea, and Karen for their meticulous studies dissecting the structural dynamics underlying Pyk2 kinase activation. We're grateful to the reviewers and thrilled to see the work in press at *Structure*.
 
@@ -162,7 +162,7 @@ Alexzandrea joins the lab as a new Ph.D. student in our Biochemistry graduate pr
 
 ## Controlling Kinase Activities by Selective Inhibition of Peptide Substrates
 date: January 4, 2021
-image: 1619130041626-XFOQJVGYR2BRV5QHE60V/ja0c11566_0005.gif | Graphical abstract for the JACS paper
+image: 1619130041626-XFOQJVGYR2BRV5QHE60V/ja0c11566_0005.gif | Graphical abstract for Controlling kinase activities by selective inhibition of peptide substrates
 
 [Our collaborative work emerges in *JACS*](https://pubs.acs.org/doi/10.1021/jacs.0c11566). Come see how molecular imprinted nanoparticles enable controlled post-translational modification of proteins!
 

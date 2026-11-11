@@ -158,7 +158,7 @@ def initials(name):
 
 def portrait(person):
     if person.get("photo"):
-        return f'<img src="{img(person["photo"], 500)}" alt="{html.escape(person["name"])}" loading="lazy">'
+        return f'<img src="{img(person["photo"], 500)}" alt="{html.escape(person.get("alt", person["name"]))}" loading="lazy">'
     return f'<div class="no-photo" aria-hidden="true">{initials(person["name"])}</div>'
 
 

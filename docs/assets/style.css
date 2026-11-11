@@ -1,0 +1,147 @@
+/* Underbakke Lab — colors are taken from the lab's own signaling-complex figures:
+   membrane gold, receptor violet, and the slate of the synapse cartoons. */
+:root {
+  --paper: #f6f8f9;
+  --surface: #ffffff;
+  --ink: #17262e;
+  --quiet: #55666f;
+  --rule: #d5dde1;
+  --gold: #e2b33c;
+  --violet: #5c3d91;
+  --slate: #21414f;
+  --sans: "IBM Plex Sans", system-ui, sans-serif;
+  --serif: "IBM Plex Serif", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--violet); text-underline-offset: 0.15em; }
+a:hover { color: var(--ink); }
+a:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 2px; }
+
+h1, h2, h3 { font-family: var(--sans); font-weight: 600; line-height: 1.2; margin: 0; }
+h1 { font-size: clamp(2rem, 4.5vw, 2.75rem); letter-spacing: -0.015em; margin-bottom: 1.5rem; }
+h2 { font-size: 1.5rem; margin: 3rem 0 1rem; }
+h3 { font-size: 1.125rem; }
+p { margin: 0 0 1rem; }
+
+.wrap { max-width: 68rem; margin: 0 auto; padding: 0 1.25rem; }
+main > .wrap { padding-top: 3rem; padding-bottom: 4rem; }
+.quiet { color: var(--quiet); font-size: 0.9375rem; }
+
+.skip { position: absolute; left: -999px; top: 0; background: var(--ink); color: #fff; padding: 0.5rem 1rem; }
+.skip:focus { left: 0; z-index: 10; }
+
+/* Header */
+.site-header { background: var(--surface); border-bottom: 4px solid var(--gold); }
+.header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 2rem; padding-top: 1rem; padding-bottom: 1rem; }
+.logo img { width: min(17rem, 70vw); }
+.site-header ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; }
+.site-header nav a { font-family: var(--sans); font-weight: 500; font-size: 1rem; color: var(--ink); text-decoration: none; padding: 0.35rem 0; display: inline-block; border-bottom: 2px solid transparent; }
+.site-header nav a:hover { border-bottom-color: var(--rule); }
+.site-header nav a[aria-current="page"] { border-bottom-color: var(--violet); color: var(--violet); }
+
+/* Footer */
+.site-footer { background: var(--slate); color: #dfe8ec; font-family: var(--sans); font-size: 0.9375rem; line-height: 1.55; }
+.footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 3rem; padding-top: 2rem; padding-bottom: 2rem; }
+.site-footer p { margin: 0; }
+.site-footer a { color: #fff; }
+
+/* Home */
+.hero { background: var(--slate); color: #fff; }
+.hero-inner { display: grid; grid-template-columns: 1.2fr 1fr; gap: 3rem; align-items: center; padding-top: 4rem; padding-bottom: 4rem; }
+.hero h1 { font-size: clamp(1.9rem, 4vw, 2.9rem); margin-bottom: 1.25rem; }
+.hero p { color: #dfe8ec; max-width: 34rem; }
+.hero a { color: #fff; }
+.button { display: inline-block; margin-top: 0.5rem; font-family: var(--sans); font-weight: 600; background: var(--gold); color: var(--ink) !important; text-decoration: none; padding: 0.7rem 1.2rem; border-radius: 4px; }
+.button:hover { background: #f0c552; }
+.hero-figure { margin: 0; }
+.hero-figure figcaption { font-family: var(--sans); font-size: 0.875rem; line-height: 1.5; color: #c4d3da; margin-top: 0.75rem; }
+
+.envelope { width: 100%; height: auto; }
+.envelope .axis { stroke: #8fa5af; stroke-width: 1.5; }
+.envelope .pk { stroke-width: 7; stroke-linecap: butt; }
+.envelope .before { stroke: #8fa5af; }
+.envelope .after { stroke: var(--gold); }
+.envelope text { font-family: var(--sans); font-size: 12px; fill: #c4d3da; }
+@media (prefers-reduced-motion: no-preference) {
+  .envelope .after { animation: exchange 2.6s cubic-bezier(.3, .1, .2, 1) 0.5s both; }
+  @keyframes exchange {
+    from { transform: translateX(-132px); opacity: 0; }
+    25% { opacity: 1; }
+    to { transform: none; opacity: 1; }
+  }
+}
+
+.pano { margin: 0 0 1rem; }
+.pano img { width: 100%; border-radius: 4px; }
+figcaption { font-family: var(--sans); font-size: 0.875rem; color: var(--quiet); margin-top: 0.5rem; }
+.home-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 4rem; }
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 3rem; }
+.gallery figure { margin: 0; }
+.gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
+
+/* News */
+.post { margin-bottom: 2.5rem; max-width: 40rem; }
+.post-date { font-family: var(--sans); font-size: 0.875rem; color: var(--quiet); margin-bottom: 0.25rem; }
+.post h3 { margin-bottom: 0.5rem; }
+.post img { margin-top: 0.75rem; border-radius: 4px; max-height: 26rem; width: auto; }
+.year { display: grid; grid-template-columns: 7rem 1fr; border-top: 1px solid var(--rule); padding-top: 2rem; }
+.year > h2 { margin: 0; font-size: 1.75rem; color: var(--violet); position: sticky; top: 1rem; align-self: start; }
+
+/* People */
+.pi { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; }
+.pi img { width: 12rem; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4px; }
+.pi h2 { margin: 0 0 0.5rem; }
+.pi p { margin-bottom: 0.25rem; }
+.people { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(11.5rem, 1fr)); gap: 2rem 1.5rem; }
+.people.alumni { grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); }
+.person img, .no-photo { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4px; margin-bottom: 0.75rem; background: var(--rule); }
+.no-photo { display: grid; place-items: center; font-family: var(--sans); font-size: 2.5rem; font-weight: 500; color: var(--quiet); }
+.person h3 { margin-bottom: 0.25rem; }
+.person p { font-family: var(--sans); font-size: 0.9375rem; line-height: 1.4; margin-bottom: 0.2rem; overflow-wrap: anywhere; }
+.alumni .person h3 { font-size: 1rem; }
+.alumni .person p { font-size: 0.875rem; }
+
+/* Publications */
+.pubs { padding-left: 2.25rem; max-width: 46rem; }
+.pubs li { margin-bottom: 1.1rem; padding-left: 0.25rem; }
+.pubs li::marker { font-family: var(--sans); color: var(--quiet); }
+.pubs.plain { list-style: none; padding-left: 0; }
+.pubs.plain li { padding-left: 0; }
+
+/* Text pages */
+.prose > p, .prose > ul, .prose section > p { max-width: 44rem; }
+.prose figure { margin: 1.5rem 0; max-width: 44rem; }
+.prose figure img { border-radius: 4px; }
+.prose section { border-top: 1px solid var(--rule); margin-top: 3rem; }
+.prose section:first-of-type { border-top: 0; margin-top: 0; }
+.prose section:first-of-type h2 { margin-top: 0; }
+.addresses { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+address { font-style: normal; font-family: var(--sans); font-size: 1rem; line-height: 1.6; background: var(--surface); border: 1px solid var(--rule); border-radius: 4px; padding: 1.25rem; }
+.profile { display: grid; grid-template-columns: minmax(12rem, 20rem) 1fr; gap: 2.5rem; align-items: start; }
+.profile img { border-radius: 4px; }
+.profile h2 { font-size: 1.125rem; margin: 1.75rem 0 0.4rem; }
+
+@media (max-width: 760px) {
+  .hero-inner, .home-cols, .profile { grid-template-columns: 1fr; }
+  .hero-inner { gap: 2rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .gallery { grid-template-columns: 1fr 1fr; }
+  .year { grid-template-columns: 1fr; }
+  .year > h2 { position: static; margin-bottom: 1.25rem; }
+  .people { grid-template-columns: repeat(2, 1fr); }
+  .people.alumni { grid-template-columns: repeat(2, 1fr); }
+}

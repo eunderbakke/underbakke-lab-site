@@ -56,7 +56,8 @@ main > .wrap { padding-top: 3rem; padding-bottom: 4rem; }
 /* Header */
 .site-header { background: var(--surface); border-bottom: 4px solid var(--gold); }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 2rem; padding-top: 1rem; padding-bottom: 1rem; }
-.logo img { width: min(17rem, 70vw); }
+.logo { display: block; width: min(21.5rem, 100%); }
+.logo img { width: 100%; height: auto; }
 .site-header ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; }
 .site-header nav a { font-family: var(--sans); font-weight: 500; font-size: 1rem; color: var(--ink); text-decoration: none; padding: 0.35rem 0; display: inline-block; border-bottom: 2px solid transparent; }
 .site-header nav a:hover { border-bottom-color: var(--rule); }
@@ -106,6 +107,8 @@ figcaption { font-family: var(--sans); font-size: 0.875rem; color: var(--quiet);
 .alumni .person h3 { font-size: 1rem; }
 .alumni .person p { font-size: 0.875rem; }
 
+.post a, .pubs a { overflow-wrap: anywhere; }
+
 /* Publications */
 .pubs { padding-left: 2.25rem; max-width: 46rem; }
 .pubs li { margin-bottom: 1.1rem; padding-left: 0.25rem; }
@@ -127,10 +130,10 @@ address { font-style: normal; font-family: var(--sans); font-size: 1rem; line-he
 .profile h2 { font-size: 1.125rem; margin: 1.75rem 0 0.4rem; }
 
 @media (max-width: 760px) {
-  .home-cols, .profile { grid-template-columns: 1fr; }
+  .home-cols, .profile { grid-template-columns: minmax(0, 1fr); }
   .hero-inner { padding-top: 2.5rem; padding-bottom: 2.5rem; }
   .gallery { grid-template-columns: 1fr 1fr; }
-  .year { grid-template-columns: 1fr; }
+  .year { grid-template-columns: minmax(0, 1fr); }
   .year > h2 { position: static; margin-bottom: 1.25rem; }
   .people { grid-template-columns: repeat(2, 1fr); }
   .people.alumni { grid-template-columns: repeat(2, 1fr); }

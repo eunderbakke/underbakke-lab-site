@@ -14,7 +14,7 @@ ROOT = Path(__file__).parent
 CONTENT = ROOT / "content"
 OUT = ROOT / "docs"
 
-LOGO = "assets/img/ESU-Lab-Logo-website-01.png"
+LOGO = "assets/img/logo.svg"
 
 NAV = [
     ("index.html", "Home"),
@@ -68,7 +68,7 @@ def page(filename, title, body, current=None, description=""):
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="index.html"><img src="{LOGO}" alt="Underbakke Lab" width="750" height="169"></a>
+      <a class="logo" href="index.html"><img src="{LOGO}" alt="Underbakke Lab" width="1775" height="315"></a>
       <nav aria-label="Main">
         <ul>
 {nav}
